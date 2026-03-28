@@ -3,7 +3,7 @@ public class Juego {
 	
 	protected String nombre, descrip;
 	protected int cantidadJugadores;
-	protected int cantidadJuegos = 0;
+	protected static int cantidadJuegos = 0;
 	
 	public Juego(String nombre, int cantidadJugadores) throws Exception {
 		
@@ -37,9 +37,6 @@ public class Juego {
 		return cantidadJuegos;
 	}
 
-	public void setCantidadJuegos(int cantidadJuegos) {
-		this.cantidadJuegos = cantidadJuegos;
-	}
-	
+
 	
 }

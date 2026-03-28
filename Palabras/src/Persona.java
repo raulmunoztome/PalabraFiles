@@ -28,6 +28,10 @@ public class Persona {
 	 public int getCode() {
 		return code;
 	}
+	 public boolean registrarPartida(Partida guardar) {
+		 if(registroPartidas.add(guardar)) return true;
+		 return false;
+	 }
 
 
 
